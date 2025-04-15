@@ -1,12 +1,45 @@
-# React + Vite
+# HR Dashboard - Payroll System 🧾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive payroll dashboard built with **Next.js** and **Tailwind CSS**, designed to help manage employee details including salary, roles, and contact information.
 
-Currently, two official plugins are available:
+![Screenshot](./public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📋 Responsive payroll table with:
+  - Avatar, Age, Email, Role, Phone, Salary
+  - Search & Pagination (optional)
+- 🧭 Sidebar navigation with:
+  - Highlighted active state
+  - Icons using [Heroicons](https://heroicons.com/)
+  - Notification badges
+- ➕ Add Employee Button
+- 🔍 Search functionality (optional)
+- 🔐 Designed with accessibility and responsiveness in mind
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Heroicons](https://heroicons.com/)
+- [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/) (for testing)
+
+---
+
+## 📦 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/Mausam-patel20/My_DN-React.git
+cd hr-dashboard
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
