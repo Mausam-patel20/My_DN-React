@@ -4,6 +4,6 @@ import Home from '../pages/index'
 describe('Home Page', () => {
   it('renders heading', () => {
     render(<Home />)
-    expect(screen.getByText(/hello/i)).toBeInTheDocument()
+    expect(screen.getByText(/HRDesk/i)).toBeInTheDocument()
   })
 })
